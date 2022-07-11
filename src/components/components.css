@@ -1,0 +1,96 @@
+
+.nv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar1{
+    background-image: url("./cover.jpg");
+}
+
+a{
+    text-decoration: none;
+}
+.brand{
+    font-size: 3em;
+    color: rgb(237, 224, 224);
+    font-weight: 800;
+    font-family: 'Life Savers', cursive;
+}
+.brand :active{
+    color: rgb(237, 224, 224);
+}
+.brand:hover{
+    color: rgb(237, 224, 224);
+}
+
+
+.navitem{
+    font-size: 1em;
+    background-color: rgb(237, 224, 224);
+    border: 1px solid black;
+    border-radius: 10%;
+    color: black;
+    font-weight: 500;
+    margin-right: 1em;
+    box-shadow: 5px 5px 10px black;
+}
+
+.navlink{
+    color: black;
+}
+.nav-list{
+   
+}
+
+.btns{
+    background-color: transparent;
+    border: none;
+
+}
+.hamburger{
+    width: 2em;
+}
+
+.aboutpage{
+    background-image: url("./istockphoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.slogan{
+    font-family: "Life Savers",cursive;
+    color: #999;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.3em;
+    padding: 30px 0 10px;
+    text-align: center;
+}
+h1{
+color: #555;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-align: center;
+    margin: 30px 0 45px;
+}
+.title{
+    border-bottom: 1px solid #D5D5D5;
+    display: block;
+    height: 1px;
+    margin: 5px auto 0;
+    width: 90px;
+}
+.aboutdesc{
+    color: #555;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-align: center;
+    margin: 30px 0 45px;
+}
+
+.logo{
+    width:5em;
+}
